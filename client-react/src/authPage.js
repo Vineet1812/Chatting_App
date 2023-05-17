@@ -95,7 +95,7 @@ const AuthPage = (props) => {
       
       <form action='https://video-chat-ri8h.onrender.com' target='_blank'>
       <div className="title">or Video Call</div>
-         <c> <button className="video_button" type="submit">Video Call</button></c>
+          <button type="submit">Video Call</button>
         </form>
 
       <style>{`
@@ -105,22 +105,7 @@ const AuthPage = (props) => {
       input { width: calc(100% - 16px); margin-top: 12px; padding: 8px; background-color:#3e404b; outline: none; border: 1px solid #e6f7ff;border-radius: 8px; }
       button { margin-top: 12px; width: 100%; padding: 8px;background-color: #fa541c;color: white;border-radius: 8px;-webkit-transition: all .44s ease;
         -moz-transition: all .44s ease;font-family: "Avenir"; }
-      .video_button {
-          width: 20%;
-          height: 53px;
-          margin-top: 12px;
-          padding: 8px;
-          color: white;
-          background-color: #fa541c;
-          border: none;
-          outline: none;
-          border-radius: 8px;
-          font-family: "Avenir";
-          cursor: pointer;
-          transition: all .44s ease;
-          -webkit-transition: all .44s ease;
-          -moz-transition: all .44s ease;
-        }
+      
       `}</style>
     </div>
   );
