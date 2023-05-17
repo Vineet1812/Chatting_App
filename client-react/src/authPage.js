@@ -89,14 +89,15 @@ const AuthPage = (props) => {
           />
           <button type="submit">SIGN UP</button>
         </form>
-      </div>
-
-      {/* Video Call form */}
+        {/* Video Call form */}
       
       <form action='https://video-chat-ri8h.onrender.com' target='_blank'>
       <div className="title">or Video Call</div>
           <button type="submit">Video Call</button>
         </form>
+      </div>
+
+      
 
       <style>{`
       .login-page { width: 100vw; height: 100vh; padding-top: 2vw; background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgb(20, 23, 33) 50%, rgba(20, 23, 33,0.8) 100%); }
