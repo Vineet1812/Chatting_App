@@ -35,6 +35,7 @@ const AuthPage = (props) => {
     
 
     <div className="login-page">
+      <div className="main_title"><img src="icon.png" className="image"></img>Chatter</div>
       <div className="card">
         {/* Login Form */}
         <form onSubmit={onLogin}>
@@ -102,6 +103,8 @@ const AuthPage = (props) => {
       <style>{`
       .login-page { width: 100vw; height: 130vh; padding-top: 1vw; background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgb(20, 23, 33) 50%, rgba(20, 23, 33,0.8) 100%); }
       .card { width: 200px; position: relative; left: calc(50vw - 100px); text-align: center;font-family: "Avenir"; }
+      .main_title { padding-top: 32px; font-size: 30px; color: white; font-weight: 700;font-family: "Avenir";text-align: left; }      
+      .image {height: 30px; width: 30px;}
       .title { padding-top: 32px; font-size: 22px; color: white; font-weight: 700;font-family: "Avenir"; }
       input { width: calc(100% - 16px); margin-top: 12px; padding: 8px; background-color:#3e404b; outline: none; border: 1px solid #e6f7ff;border-radius: 8px; }
       button { margin-top: 12px; width: 100%; padding: 8px;background-color: #fa541c;color: white;border-radius: 8px;-webkit-transition: all .44s ease;
